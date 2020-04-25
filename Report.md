@@ -53,6 +53,8 @@ The weights of the trained Deep Q-Network have been saved in the file [checkpoin
 
 ## Ideas for Future Work
 
-The current solution uses a deep network that represents Q-values. We can try a solution with a deep nework that directly represents the policy.
+* To use raw pixels as input instead of using state. The Q-Network would be something based on CNNs. 
+
+* The current solution uses a deep network that represents Q-values. We can try a solution with a deep nework that directly represents the policy.
 
 
