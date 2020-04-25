@@ -24,27 +24,32 @@ To explain the algorithm in detail -
 
 ## Training performance
 
-The environment was solved in 600 episodes
+The environment was solved in 388 episodes
 
 The rolling 100-episode average reward observed during training is as follows
 | Episode Count | Rolling reward average |
 |-------------- | ----------------------|
-|Episode 100  |Average Score: 0.93 | 
-|Episode 200  |Average Score: 3.73 |
-|Episode 300  |Average Score: 7.12 |
-|Episode 400  |Average Score: 10.17|
-|Episode 500  |Average Score: 12.45|
-|Episode 600  |Average Score: 14.89|
-|Episode 700  |Average Score: 15.22|
-|Episode 800  |Average Score: 16.12|
-|Episode 900  |Average Score: 17.20|
-|Episode 1000 |Average Score: 16.37|
+|Episode 100  |Average Score: 0.61 | 
+|Episode 200  |Average Score: 4.76 |
+|Episode 300  |Average Score: 7.67 |
+|Episode 400  |Average Score: 10.01|
+|**Episode 488 |Average Score: 13.01**|
+|Episode 500  |Average Score: 13.37|
+|Episode 600  |Average Score: 14.30|
+|Episode 700  |Average Score: 15.45|
+|Episode 800  |Average Score: 15.85|
+|Episode 900  |Average Score: 15.83|
+|Episode 1000 |Average Score: 16.38|
 |-------------- | ----------------------|
 
 ## Plot of Rewards
 
 A plot of the rewards during training is shown below 
 ![Average reward during training](training_plot.png)
+
+## Saved model
+
+The weights of the trained Deep Q-Network have been saved in the file [checkpoint.pth](checkpoint.pth)
 
 ## Ideas for Future Work
 
