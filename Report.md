@@ -15,7 +15,7 @@ To explain the algorithm in detail -
    * Three hidden layers of size 64,32,16 respectively, each with ReLU activations
    * An output layer of size 4. The outputs correspond to the Q-values for the four actions
    ![Q-network](my_network.png)
- * The agent has instances of the  Q-network - *qnetwork_local and qnetwork_target*
+ * The agent has two instances of the  Q-network - *qnetwork_local and qnetwork_target*
  * At every step, the agent uses the output of *qnetwork_local*, and an epsilon greedy policy to determine current action. The agent interacts with the environment to determine *next_state* and *reward*
  * The agent converts the parameters *state, action, reward, next_state* and *done* into *experiences* and stores them in a replay buffer.   
  * Every four steps (determined by hyper-parameter *UPDATE_EVERY*), *experieces* are sampled from the replay buffer. 
