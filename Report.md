@@ -33,7 +33,7 @@ The rolling 100-episode average reward observed during training is as follows
 |Episode 200  |Average Score: 4.76 |
 |Episode 300  |Average Score: 7.67 |
 |Episode 400  |Average Score: 10.01|
-|**Episode 488 |Average Score: 13.01**|
+|**Episode 488** |**Average Score: 13.01**|
 |Episode 500  |Average Score: 13.37|
 |Episode 600  |Average Score: 14.30|
 |Episode 700  |Average Score: 15.45|
