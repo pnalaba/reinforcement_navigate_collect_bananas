@@ -24,7 +24,7 @@ The task is episodic, and in order to solve the environment, the agent must get 
 # Getting Started
 ## Installing the environment
 
-* The following instructions have been copied here from the Udacity project description *
+*The following instructions have been copied here from the Udacity project description*
 ### Step 1: Clone the DRLND Repository
 If you haven't already, please follow the [instructions in the DRLND GitHub repository](https://github.com/udacity/deep-reinforcement-learning#dependencies) to set up your Python environment. These instructions can be found in README.md at the root of the repository. By following these instructions, you will install PyTorch, the ML-Agents toolkit, and a few more Python packages required to complete the project.
 
