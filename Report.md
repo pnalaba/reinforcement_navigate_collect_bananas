@@ -44,7 +44,7 @@ The rolling 100-episode average reward observed during training is as follows
 ## Plot of Rewards
 
 A plot of the rewards during training is shown below 
-![Average reward during training](training.png)
+![Average reward during training](training_plot.png)
 
 ## Ideas for Future Work
 
