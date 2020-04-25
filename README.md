@@ -45,7 +45,7 @@ Then, place the file in the p1\_navigation/ folder in the DRLND GitHub repositor
 
 # Instructions
 
-To run the code in this project, you would need to have jupyter notebook installed. The notebook Navigation.ipynb has code cells to train an agent and similate episodes of navigation with a trained agent.
+To run the code in this project, you would need to have jupyter notebook installed. The notebook [Navigation.ipynb](Navigation.ipynb) has code cells to train an agent and similate episodes of navigation with a trained agent.
 
-The code for the agent itself is in dqn_agent.py and the code for the model is in model.py.
+The code for the agent itself is in [dqn_agent.py](dqn_agent.py) and the code for the model is in [model.py](model.py).
 
